@@ -18,6 +18,7 @@ final class CharacterViewController: UIViewController {
     
     private func initialSetup() {
         title = "Character"
+        
         view.backgroundColor = .systemBackground
         navigationItem.largeTitleDisplayMode = .automatic
         navigationController?.navigationBar.prefersLargeTitles = true

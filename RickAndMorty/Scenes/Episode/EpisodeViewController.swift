@@ -18,6 +18,7 @@ final class EpisodeViewController: UIViewController {
     
     private func initialSetup() {
         title = "Episode"
+        
         view.backgroundColor = .systemBackground
         navigationItem.largeTitleDisplayMode = .automatic
         navigationController?.navigationBar.prefersLargeTitles = true

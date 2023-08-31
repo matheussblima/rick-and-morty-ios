@@ -18,6 +18,7 @@ final class LocationViewController: UIViewController {
     
     private func initialSetup() {
         title = "Location"
+        
         view.backgroundColor = .systemBackground
         navigationItem.largeTitleDisplayMode = .automatic
         navigationController?.navigationBar.prefersLargeTitles = true
