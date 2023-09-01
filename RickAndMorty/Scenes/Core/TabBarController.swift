@@ -17,9 +17,9 @@ final class TabBarController: UITabBarController {
     }
     
     private func initialSetup() {
-        let characterViewController = UINavigationController(rootViewController: CharacterViewController())
-        let episodeViewController =  UINavigationController(rootViewController: EpisodeViewController())
-        let locationViewController =  UINavigationController(rootViewController: LocationViewController())
+        let characterViewController = UINavigationController(rootViewController: CharacterConfigurator.view())
+        let episodeViewController =  UINavigationController(rootViewController: EpisodeConfigurator.view())
+        let locationViewController =  UINavigationController(rootViewController: LocationConfigurator.view())
         
         characterViewController.tabBarItem = UITabBarItem(title: "Character", image: UIImage(systemName: "person"), tag: 1)
         episodeViewController.tabBarItem = UITabBarItem(title: "Episode", image: UIImage(systemName: "tv"), tag: 2)

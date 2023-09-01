@@ -15,6 +15,18 @@
 		F9D374322AA1246100FE3011 /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D374312AA1246100FE3011 /* CharacterViewController.swift */; };
 		F9D374362AA12C8800FE3011 /* EpisodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D374352AA12C8800FE3011 /* EpisodeViewController.swift */; };
 		F9D374382AA12D2900FE3011 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D374372AA12D2900FE3011 /* LocationViewController.swift */; };
+		F9D3743B2AA211B100FE3011 /* EpisodeConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D3743A2AA211B100FE3011 /* EpisodeConfigurator.swift */; };
+		F9D3743D2AA211F000FE3011 /* EpisodePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D3743C2AA211F000FE3011 /* EpisodePresenter.swift */; };
+		F9D3743F2AA2120800FE3011 /* EpisodeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D3743E2AA2120800FE3011 /* EpisodeInteractor.swift */; };
+		F9D374412AA2121D00FE3011 /* EpisodeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D374402AA2121D00FE3011 /* EpisodeWorker.swift */; };
+		F9D374432AA2123100FE3011 /* LocationConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D374422AA2123100FE3011 /* LocationConfigurator.swift */; };
+		F9D374452AA2123F00FE3011 /* LocationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D374442AA2123F00FE3011 /* LocationPresenter.swift */; };
+		F9D374472AA2124D00FE3011 /* LocationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D374462AA2124D00FE3011 /* LocationInteractor.swift */; };
+		F9D374492AA2125700FE3011 /* LocationWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D374482AA2125700FE3011 /* LocationWorker.swift */; };
+		F9D3744B2AA2127E00FE3011 /* CharacterConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D3744A2AA2127E00FE3011 /* CharacterConfigurator.swift */; };
+		F9D3744D2AA2129000FE3011 /* CharacterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D3744C2AA2129000FE3011 /* CharacterPresenter.swift */; };
+		F9D3744F2AA212A200FE3011 /* CharacterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D3744E2AA212A200FE3011 /* CharacterInteractor.swift */; };
+		F9D374532AA212BB00FE3011 /* CharacterWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D374522AA212BB00FE3011 /* CharacterWorker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +40,18 @@
 		F9D374312AA1246100FE3011 /* CharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
 		F9D374352AA12C8800FE3011 /* EpisodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeViewController.swift; sourceTree = "<group>"; };
 		F9D374372AA12D2900FE3011 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		F9D3743A2AA211B100FE3011 /* EpisodeConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeConfigurator.swift; sourceTree = "<group>"; };
+		F9D3743C2AA211F000FE3011 /* EpisodePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodePresenter.swift; sourceTree = "<group>"; };
+		F9D3743E2AA2120800FE3011 /* EpisodeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeInteractor.swift; sourceTree = "<group>"; };
+		F9D374402AA2121D00FE3011 /* EpisodeWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeWorker.swift; sourceTree = "<group>"; };
+		F9D374422AA2123100FE3011 /* LocationConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationConfigurator.swift; sourceTree = "<group>"; };
+		F9D374442AA2123F00FE3011 /* LocationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPresenter.swift; sourceTree = "<group>"; };
+		F9D374462AA2124D00FE3011 /* LocationInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInteractor.swift; sourceTree = "<group>"; };
+		F9D374482AA2125700FE3011 /* LocationWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationWorker.swift; sourceTree = "<group>"; };
+		F9D3744A2AA2127E00FE3011 /* CharacterConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterConfigurator.swift; sourceTree = "<group>"; };
+		F9D3744C2AA2129000FE3011 /* CharacterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterPresenter.swift; sourceTree = "<group>"; };
+		F9D3744E2AA212A200FE3011 /* CharacterInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterInteractor.swift; sourceTree = "<group>"; };
+		F9D374522AA212BB00FE3011 /* CharacterWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterWorker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +106,10 @@
 			isa = PBXGroup;
 			children = (
 				F9D374372AA12D2900FE3011 /* LocationViewController.swift */,
+				F9D374422AA2123100FE3011 /* LocationConfigurator.swift */,
+				F9D374442AA2123F00FE3011 /* LocationPresenter.swift */,
+				F9D374462AA2124D00FE3011 /* LocationInteractor.swift */,
+				F9D374482AA2125700FE3011 /* LocationWorker.swift */,
 			);
 			path = Location;
 			sourceTree = "<group>";
@@ -90,6 +118,10 @@
 			isa = PBXGroup;
 			children = (
 				F9D374352AA12C8800FE3011 /* EpisodeViewController.swift */,
+				F9D3743A2AA211B100FE3011 /* EpisodeConfigurator.swift */,
+				F9D3743C2AA211F000FE3011 /* EpisodePresenter.swift */,
+				F9D3743E2AA2120800FE3011 /* EpisodeInteractor.swift */,
+				F9D374402AA2121D00FE3011 /* EpisodeWorker.swift */,
 			);
 			path = Episode;
 			sourceTree = "<group>";
@@ -98,6 +130,10 @@
 			isa = PBXGroup;
 			children = (
 				F9D374312AA1246100FE3011 /* CharacterViewController.swift */,
+				F9D3744A2AA2127E00FE3011 /* CharacterConfigurator.swift */,
+				F9D3744C2AA2129000FE3011 /* CharacterPresenter.swift */,
+				F9D3744E2AA212A200FE3011 /* CharacterInteractor.swift */,
+				F9D374522AA212BB00FE3011 /* CharacterWorker.swift */,
 			);
 			path = Character;
 			sourceTree = "<group>";
@@ -191,10 +227,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9D374492AA2125700FE3011 /* LocationWorker.swift in Sources */,
+				F9D3744F2AA212A200FE3011 /* CharacterInteractor.swift in Sources */,
 				F9D374322AA1246100FE3011 /* CharacterViewController.swift in Sources */,
 				F9D3741E2A9FB9DF00FE3011 /* TabBarController.swift in Sources */,
+				F9D3743D2AA211F000FE3011 /* EpisodePresenter.swift in Sources */,
+				F9D374532AA212BB00FE3011 /* CharacterWorker.swift in Sources */,
+				F9D374412AA2121D00FE3011 /* EpisodeWorker.swift in Sources */,
+				F9D374432AA2123100FE3011 /* LocationConfigurator.swift in Sources */,
+				F9D374472AA2124D00FE3011 /* LocationInteractor.swift in Sources */,
 				F9D3741A2A9FB9DF00FE3011 /* AppDelegate.swift in Sources */,
+				F9D3744D2AA2129000FE3011 /* CharacterPresenter.swift in Sources */,
+				F9D3744B2AA2127E00FE3011 /* CharacterConfigurator.swift in Sources */,
 				F9D374382AA12D2900FE3011 /* LocationViewController.swift in Sources */,
+				F9D374452AA2123F00FE3011 /* LocationPresenter.swift in Sources */,
+				F9D3743F2AA2120800FE3011 /* EpisodeInteractor.swift in Sources */,
+				F9D3743B2AA211B100FE3011 /* EpisodeConfigurator.swift in Sources */,
 				F9D3741C2A9FB9DF00FE3011 /* SceneDelegate.swift in Sources */,
 				F9D374362AA12C8800FE3011 /* EpisodeViewController.swift in Sources */,
 			);
